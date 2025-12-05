@@ -34,19 +34,19 @@ snyk auth
 
 ```bash
 # Scan dependencies for vulnerabilities (SCA)
-snyk test --all-projects --json > ../Scanner/Snyk/Results/snyk-sca-results.json
+snyk test --all-projects --json > ../Scanner/Snyk/scan_results/snyk-sca-results.json
 
 # Scan source code for security issues (SAST) - requires Snyk Code enabled
-snyk code test --json > ../Scanner/Snyk/Results/snyk-sast-results.json
+snyk code test --json > ../Scanner/Snyk/scan_results/snyk-sast-results.json
 
 # Scan Docker images for OS vulnerabilities and recommendations
 # Example with Frontend image
-snyk container test keiken-dragon-ai-frontend --json > ../Scanner/Snyk/Results/snyk-container-frontend-results.json
+snyk container test keiken-dragon-ai-frontend --json > ../Scanner/Snyk/scan_results/snyk-container-frontend-results.json
 ```
-> **Note:** Results are saved in `../Scanner/Snyk/Results/` directory
+> **Note:** Results are saved in `../Scanner/Snyk/scan_results/` directory
 
-### 5. Generate HTML report 
+### 5. Generate HTML report
 ```bash
-snyk test --file=backend/requirements.txt > ../Scanner/Snyk/Results/snyk-report-backend.txt
-snyk test --file=frontend/package.json > ../Scanner/Snyk/Results/snyk-report-frontend.txt
-  ```
+snyk test --file=backend/requirements.txt > ../Scanner/Snyk/scan_results/snyk-report-backend.txt
+snyk test --file=frontend/package.json > ../Scanner/Snyk/scan_results/snyk-report-frontend.txt
+```
