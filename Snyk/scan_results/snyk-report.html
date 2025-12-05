@@ -1,0 +1,141 @@
+
+Testing /Users/manar/Desktop/project/keiken-dragon-ai/backend...
+
+Tested 191 dependencies for known issues, found 45 issues, 194 vulnerable paths.
+
+
+Issues to fix by upgrading dependencies:
+
+  Upgrade fastapi@0.104.1 to fastapi@0.109.1 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-FASTAPI-6228055] in fastapi@0.104.1
+    introduced by fastapi@0.104.1 and 2 other path(s)
+
+  Upgrade langgraph@0.2.76 to langgraph@1.0.1 to fix
+  ✗ Deserialization of Untrusted Data (new) [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-LANGGRAPH-13843663] in langgraph@0.2.76
+    introduced by langgraph@0.2.76
+
+  Upgrade pypdf@4.3.1 to pypdf@6.4.0 to fix
+  ✗ Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-PYPDF-11798040] in pypdf@4.3.1
+    introduced by pypdf@4.3.1
+  ✗ Infinite loop [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-PYPDF-13658705] in pypdf@4.3.1
+    introduced by pypdf@4.3.1
+  ✗ Improper Handling of Highly Compressed Data (Data Amplification) [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-PYPDF-13658706] in pypdf@4.3.1
+    introduced by pypdf@4.3.1
+  ✗ Improper Handling of Highly Compressed Data (Data Amplification) (new) [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-PYPDF-14105065] in pypdf@4.3.1
+    introduced by pypdf@4.3.1
+
+  Upgrade python-multipart@0.0.6 to python-multipart@0.0.18 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-PYTHONMULTIPART-6227505] in python-multipart@0.0.6
+    introduced by python-multipart@0.0.6
+  ✗ Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-PYTHONMULTIPART-8446508] in python-multipart@0.0.6
+    introduced by python-multipart@0.0.6
+
+  Upgrade starlette@0.27.0 to starlette@0.49.1 to fix
+  ✗ Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-STARLETTE-10874054] in starlette@0.27.0
+    introduced by starlette@0.27.0 and 3 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-STARLETTE-13733964] in starlette@0.27.0
+    introduced by starlette@0.27.0 and 3 other path(s)
+  ✗ Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-STARLETTE-8186175] in starlette@0.27.0
+    introduced by starlette@0.27.0 and 3 other path(s)
+
+  Upgrade torch@2.2.2 to torch@2.9.0 to fix
+  ✗ Stack-based Buffer Overflow [Low Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-13052818] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  ✗ Reachable Assertion [Low Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-13052821] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  ✗ Improper Validation of Specified Quantity in Input [Low Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-13052968] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  ✗ Always-Incorrect Control Flow Implementation [Low Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-13052971] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  ✗ Improper Handling of Undefined Values [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-13052977] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  ✗ Improper Validation of Syntactic Correctness of Input [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-13052994] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  ✗ Improper Resource Shutdown or Release [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-9634167] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  ✗ Improper Check for Unusual or Exceptional Conditions [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-9726944] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  ✗ Deserialization of Untrusted Data [Critical Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-9788071] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+
+  Pin anyio@3.7.1 to anyio@4.4.0 to fix
+  ✗ Race Condition [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-ANYIO-7361842] in anyio@3.7.1
+    introduced by fastapi@0.104.1 > anyio@3.7.1 and 22 other path(s)
+
+  Pin langgraph-checkpoint@2.1.2 to langgraph-checkpoint@3.0.0 to fix
+  ✗ Deserialization of Untrusted Data (new) [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-LANGGRAPHCHECKPOINT-13849007] in langgraph-checkpoint@2.1.2
+    introduced by langgraph@0.2.76 > langgraph-checkpoint@2.1.2
+
+  Pin transformers@4.46.3 to transformers@4.53.0 to fix
+  ✗ Deserialization of Untrusted Data [Low Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TRANSFORMERS-8400820] in transformers@4.46.3
+    introduced by sentence-transformers@3.4.1 > transformers@4.46.3 and 1 other path(s)
+  ✗ Deserialization of Untrusted Data [Low Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TRANSFORMERS-8400822] in transformers@4.46.3
+    introduced by sentence-transformers@3.4.1 > transformers@4.46.3 and 1 other path(s)
+  ✗ Deserialization of Untrusted Data [Low Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TRANSFORMERS-8400823] in transformers@4.46.3
+    introduced by sentence-transformers@3.4.1 > transformers@4.46.3 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TRANSFORMERS-10185677] in transformers@4.46.3
+    introduced by sentence-transformers@3.4.1 > transformers@4.46.3 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TRANSFORMERS-10247398] in transformers@4.46.3
+    introduced by sentence-transformers@3.4.1 > transformers@4.46.3 and 1 other path(s)
+  ✗ Improper Validation of Syntactic Correctness of Input [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TRANSFORMERS-10658536] in transformers@4.46.3
+    introduced by sentence-transformers@3.4.1 > transformers@4.46.3 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TRANSFORMERS-11501199] in transformers@4.46.3
+    introduced by sentence-transformers@3.4.1 > transformers@4.46.3 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TRANSFORMERS-12668722] in transformers@4.46.3
+    introduced by sentence-transformers@3.4.1 > transformers@4.46.3 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TRANSFORMERS-12670879] in transformers@4.46.3
+    introduced by sentence-transformers@3.4.1 > transformers@4.46.3 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TRANSFORMERS-13018959] in transformers@4.46.3
+    introduced by sentence-transformers@3.4.1 > transformers@4.46.3 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TRANSFORMERS-9510923] in transformers@4.46.3
+    introduced by sentence-transformers@3.4.1 > transformers@4.46.3 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TRANSFORMERS-9904725] in transformers@4.46.3
+    introduced by sentence-transformers@3.4.1 > transformers@4.46.3 and 1 other path(s)
+
+  Pin urllib3@2.3.0 to urllib3@2.5.0 to fix
+  ✗ Open Redirect [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-URLLIB3-10390193] in urllib3@2.3.0
+    introduced by llama-index-core@0.14.8 > requests@2.32.5 > urllib3@2.3.0 and 34 other path(s)
+  ✗ Open Redirect [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-URLLIB3-10390194] in urllib3@2.3.0
+    introduced by llama-index-core@0.14.8 > requests@2.32.5 > urllib3@2.3.0 and 34 other path(s)
+
+
+Issues with no direct upgrade or patch:
+  ✗ Improper Resource Shutdown or Release [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-10332643] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  No upgrade or patch available
+  ✗ Buffer Overflow [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-10332644] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  No upgrade or patch available
+  ✗ Buffer Overflow [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-10332645] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  No upgrade or patch available
+  ✗ Mismatched Memory Management Routines [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-10337825] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  No upgrade or patch available
+  ✗ Out-of-bounds Write [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-10337826] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  No upgrade or patch available
+  ✗ Out-of-bounds Write [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-10337828] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  No upgrade or patch available
+  ✗ Out-of-bounds Write [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-10337834] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  No upgrade or patch available
+  ✗ Reachable Assertion [Low Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-13052805] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  No upgrade or patch available
+  ✗ Integer Overflow or Wraparound [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-TORCH-13052969] in torch@2.2.2
+    introduced by torch@2.2.2 and 2 other path(s)
+  No upgrade or patch available
+
+
+
+Organization:      manarbadre13
+Package manager:   poetry
+Target file:       pyproject.toml
+Project name:      enterprise-rag-backend
+Open source:       no
+Project path:      /Users/manar/Desktop/project/keiken-dragon-ai/backend
+Licenses:          enabled
+
+

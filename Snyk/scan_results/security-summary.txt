@@ -1,0 +1,30 @@
+=== Snyk Security Scan Results ===
+
+SCA (Dependencies):
+[
+  {
+    "severity": "critical",
+    "count": 3
+  },
+  {
+    "severity": "high",
+    "count": 44
+  },
+  {
+    "severity": "low",
+    "count": 21
+  },
+  {
+    "severity": "medium",
+    "count": 126
+  }
+]
+
+SAST (Code Analysis):
+[
+  {
+    "level": "note",
+    "count": 5
+  }
+]
+
