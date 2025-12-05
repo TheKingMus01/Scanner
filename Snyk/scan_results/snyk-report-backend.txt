@@ -1,0 +1,12 @@
+
+ ERROR   Unspecified Error (SNYK-CLI-0000)
+                                                                                        
+                                                                                        
+           Testing /Users/manar/Desktop/project/keiken-dragon-ai...                     
+                                                                                        
+           Could not find the specified file: backend/requirements.txt                  
+           Please check that it exists and try again.                                   
+
+Docs:    https://docs.snyk.io/scan-with-snyk/error-catalog#snyk-cli-0000 
+                                                                         
+ID:      urn:snyk:interaction:d9a81b15-2d88-455c-b5ba-d40142c2bf8d 

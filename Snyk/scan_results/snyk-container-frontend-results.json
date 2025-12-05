@@ -1,0 +1,4129 @@
+{
+  "vulnerabilities": [
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091698",
+      "cpes": [],
+      "title": "CVE-2025-46394",
+      "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": 3.3,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=16018",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=16018"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/5",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/5"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/24/3",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/24/3"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "NVD",
+          "severity": "low",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "cvssV3BaseScore": 3.3,
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "primary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "assigner": "NVD",
+          "severity": "low",
+          "baseScore": 3.3,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=16018](https://bugs.busybox.net/show_bug.cgi?id=16018)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/5](http://www.openwall.com/lists/oss-security/2025/04/23/5)\n- [http://www.openwall.com/lists/oss-security/2025/04/24/3](http://www.openwall.com/lists/oss-security/2025/04/24/3)\n",
+      "epssDetails": {
+        "percentile": "0.03074",
+        "probability": "0.00017",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-46394"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": "low",
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:22:50.851375Z",
+      "disclosureTime": "2025-04-23T16:15:48.713000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:22:50.892452Z",
+      "severityBasedOn": "CVSS",
+      "modificationTime": "2025-11-22T03:22:50.892591Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "busybox/busybox@1.37.0-r19"
+      ],
+      "upgradePath": [
+        false,
+        "busybox/busybox@1.37.0-r20"
+      ],
+      "isUpgradable": true,
+      "isPatchable": false,
+      "name": "busybox/busybox",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091701",
+      "cpes": [],
+      "title": "CVE-2024-58251",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=15922",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=15922"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/6",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/6"
+        }
+      ],
+      "cvssDetails": [],
+      "cvssSources": [],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=15922](https://bugs.busybox.net/show_bug.cgi?id=15922)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/6](http://www.openwall.com/lists/oss-security/2025/04/23/6)\n",
+      "epssDetails": {
+        "percentile": "0.04240",
+        "probability": "0.00020",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2024-58251"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:23:03.401542Z",
+      "disclosureTime": "2025-04-23T18:16:03.057000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:23:03.410805Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-22T03:23:03.411008Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "busybox/busybox@1.37.0-r19"
+      ],
+      "upgradePath": [
+        false,
+        "busybox/busybox@1.37.0-r20"
+      ],
+      "isUpgradable": true,
+      "isPatchable": false,
+      "name": "busybox/busybox",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091698",
+      "cpes": [],
+      "title": "CVE-2025-46394",
+      "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": 3.3,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=16018",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=16018"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/5",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/5"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/24/3",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/24/3"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "NVD",
+          "severity": "low",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "cvssV3BaseScore": 3.3,
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "primary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "assigner": "NVD",
+          "severity": "low",
+          "baseScore": 3.3,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=16018](https://bugs.busybox.net/show_bug.cgi?id=16018)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/5](http://www.openwall.com/lists/oss-security/2025/04/23/5)\n- [http://www.openwall.com/lists/oss-security/2025/04/24/3](http://www.openwall.com/lists/oss-security/2025/04/24/3)\n",
+      "epssDetails": {
+        "percentile": "0.03074",
+        "probability": "0.00017",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-46394"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": "low",
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:22:50.851375Z",
+      "disclosureTime": "2025-04-23T16:15:48.713000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:22:50.892452Z",
+      "severityBasedOn": "CVSS",
+      "modificationTime": "2025-11-22T03:22:50.892591Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "alpine-baselayout/alpine-baselayout@3.7.0-r0",
+        "busybox/busybox-binsh@1.37.0-r19",
+        "busybox/busybox@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091701",
+      "cpes": [],
+      "title": "CVE-2024-58251",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=15922",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=15922"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/6",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/6"
+        }
+      ],
+      "cvssDetails": [],
+      "cvssSources": [],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=15922](https://bugs.busybox.net/show_bug.cgi?id=15922)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/6](http://www.openwall.com/lists/oss-security/2025/04/23/6)\n",
+      "epssDetails": {
+        "percentile": "0.04240",
+        "probability": "0.00020",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2024-58251"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:23:03.401542Z",
+      "disclosureTime": "2025-04-23T18:16:03.057000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:23:03.410805Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-22T03:23:03.411008Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "alpine-baselayout/alpine-baselayout@3.7.0-r0",
+        "busybox/busybox-binsh@1.37.0-r19",
+        "busybox/busybox@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091698",
+      "cpes": [],
+      "title": "CVE-2025-46394",
+      "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": 3.3,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=16018",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=16018"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/5",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/5"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/24/3",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/24/3"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "NVD",
+          "severity": "low",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "cvssV3BaseScore": 3.3,
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "primary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "assigner": "NVD",
+          "severity": "low",
+          "baseScore": 3.3,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=16018](https://bugs.busybox.net/show_bug.cgi?id=16018)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/5](http://www.openwall.com/lists/oss-security/2025/04/23/5)\n- [http://www.openwall.com/lists/oss-security/2025/04/24/3](http://www.openwall.com/lists/oss-security/2025/04/24/3)\n",
+      "epssDetails": {
+        "percentile": "0.03074",
+        "probability": "0.00017",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-46394"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": "low",
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:22:50.851375Z",
+      "disclosureTime": "2025-04-23T16:15:48.713000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:22:50.892452Z",
+      "severityBasedOn": "CVSS",
+      "modificationTime": "2025-11-22T03:22:50.892591Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [
+        false,
+        "busybox/busybox-binsh@1.37.0-r20"
+      ],
+      "isUpgradable": true,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091701",
+      "cpes": [],
+      "title": "CVE-2024-58251",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=15922",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=15922"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/6",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/6"
+        }
+      ],
+      "cvssDetails": [],
+      "cvssSources": [],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=15922](https://bugs.busybox.net/show_bug.cgi?id=15922)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/6](http://www.openwall.com/lists/oss-security/2025/04/23/6)\n",
+      "epssDetails": {
+        "percentile": "0.04240",
+        "probability": "0.00020",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2024-58251"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:23:03.401542Z",
+      "disclosureTime": "2025-04-23T18:16:03.057000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:23:03.410805Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-22T03:23:03.411008Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [
+        false,
+        "busybox/busybox-binsh@1.37.0-r20"
+      ],
+      "isUpgradable": true,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091698",
+      "cpes": [],
+      "title": "CVE-2025-46394",
+      "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": 3.3,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=16018",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=16018"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/5",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/5"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/24/3",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/24/3"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "NVD",
+          "severity": "low",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "cvssV3BaseScore": 3.3,
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "primary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "assigner": "NVD",
+          "severity": "low",
+          "baseScore": 3.3,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=16018](https://bugs.busybox.net/show_bug.cgi?id=16018)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/5](http://www.openwall.com/lists/oss-security/2025/04/23/5)\n- [http://www.openwall.com/lists/oss-security/2025/04/24/3](http://www.openwall.com/lists/oss-security/2025/04/24/3)\n",
+      "epssDetails": {
+        "percentile": "0.03074",
+        "probability": "0.00017",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-46394"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": "low",
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:22:50.851375Z",
+      "disclosureTime": "2025-04-23T16:15:48.713000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:22:50.892452Z",
+      "severityBasedOn": "CVSS",
+      "modificationTime": "2025-11-22T03:22:50.892591Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "alpine-baselayout/alpine-baselayout@3.7.0-r0",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091701",
+      "cpes": [],
+      "title": "CVE-2024-58251",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=15922",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=15922"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/6",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/6"
+        }
+      ],
+      "cvssDetails": [],
+      "cvssSources": [],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=15922](https://bugs.busybox.net/show_bug.cgi?id=15922)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/6](http://www.openwall.com/lists/oss-security/2025/04/23/6)\n",
+      "epssDetails": {
+        "percentile": "0.04240",
+        "probability": "0.00020",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2024-58251"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:23:03.401542Z",
+      "disclosureTime": "2025-04-23T18:16:03.057000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:23:03.410805Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-22T03:23:03.411008Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "alpine-baselayout/alpine-baselayout@3.7.0-r0",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091698",
+      "cpes": [],
+      "title": "CVE-2025-46394",
+      "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": 3.3,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=16018",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=16018"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/5",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/5"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/24/3",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/24/3"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "NVD",
+          "severity": "low",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "cvssV3BaseScore": 3.3,
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "primary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "assigner": "NVD",
+          "severity": "low",
+          "baseScore": 3.3,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=16018](https://bugs.busybox.net/show_bug.cgi?id=16018)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/5](http://www.openwall.com/lists/oss-security/2025/04/23/5)\n- [http://www.openwall.com/lists/oss-security/2025/04/24/3](http://www.openwall.com/lists/oss-security/2025/04/24/3)\n",
+      "epssDetails": {
+        "percentile": "0.03074",
+        "probability": "0.00017",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-46394"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": "low",
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:22:50.851375Z",
+      "disclosureTime": "2025-04-23T16:15:48.713000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:22:50.892452Z",
+      "severityBasedOn": "CVSS",
+      "modificationTime": "2025-11-22T03:22:50.892591Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "ca-certificates/ca-certificates@20250911-r0",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091701",
+      "cpes": [],
+      "title": "CVE-2024-58251",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=15922",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=15922"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/6",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/6"
+        }
+      ],
+      "cvssDetails": [],
+      "cvssSources": [],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=15922](https://bugs.busybox.net/show_bug.cgi?id=15922)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/6](http://www.openwall.com/lists/oss-security/2025/04/23/6)\n",
+      "epssDetails": {
+        "percentile": "0.04240",
+        "probability": "0.00020",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2024-58251"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:23:03.401542Z",
+      "disclosureTime": "2025-04-23T18:16:03.057000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:23:03.410805Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-22T03:23:03.411008Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "ca-certificates/ca-certificates@20250911-r0",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091698",
+      "cpes": [],
+      "title": "CVE-2025-46394",
+      "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": 3.3,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=16018",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=16018"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/5",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/5"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/24/3",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/24/3"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "NVD",
+          "severity": "low",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "cvssV3BaseScore": 3.3,
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "primary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "assigner": "NVD",
+          "severity": "low",
+          "baseScore": 3.3,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=16018](https://bugs.busybox.net/show_bug.cgi?id=16018)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/5](http://www.openwall.com/lists/oss-security/2025/04/23/5)\n- [http://www.openwall.com/lists/oss-security/2025/04/24/3](http://www.openwall.com/lists/oss-security/2025/04/24/3)\n",
+      "epssDetails": {
+        "percentile": "0.03074",
+        "probability": "0.00017",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-46394"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": "low",
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:22:50.851375Z",
+      "disclosureTime": "2025-04-23T16:15:48.713000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:22:50.892452Z",
+      "severityBasedOn": "CVSS",
+      "modificationTime": "2025-11-22T03:22:50.892591Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "fontconfig/fontconfig@2.15.0-r3",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091701",
+      "cpes": [],
+      "title": "CVE-2024-58251",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=15922",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=15922"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/6",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/6"
+        }
+      ],
+      "cvssDetails": [],
+      "cvssSources": [],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=15922](https://bugs.busybox.net/show_bug.cgi?id=15922)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/6](http://www.openwall.com/lists/oss-security/2025/04/23/6)\n",
+      "epssDetails": {
+        "percentile": "0.04240",
+        "probability": "0.00020",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2024-58251"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:23:03.401542Z",
+      "disclosureTime": "2025-04-23T18:16:03.057000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:23:03.410805Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-22T03:23:03.411008Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "fontconfig/fontconfig@2.15.0-r3",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091698",
+      "cpes": [],
+      "title": "CVE-2025-46394",
+      "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": 3.3,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=16018",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=16018"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/5",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/5"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/24/3",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/24/3"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "NVD",
+          "severity": "low",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "cvssV3BaseScore": 3.3,
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "primary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "assigner": "NVD",
+          "severity": "low",
+          "baseScore": 3.3,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=16018](https://bugs.busybox.net/show_bug.cgi?id=16018)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/5](http://www.openwall.com/lists/oss-security/2025/04/23/5)\n- [http://www.openwall.com/lists/oss-security/2025/04/24/3](http://www.openwall.com/lists/oss-security/2025/04/24/3)\n",
+      "epssDetails": {
+        "percentile": "0.03074",
+        "probability": "0.00017",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-46394"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": "low",
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:22:50.851375Z",
+      "disclosureTime": "2025-04-23T16:15:48.713000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:22:50.892452Z",
+      "severityBasedOn": "CVSS",
+      "modificationTime": "2025-11-22T03:22:50.892591Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "nginx/nginx@1.29.3-r1",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091701",
+      "cpes": [],
+      "title": "CVE-2024-58251",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=15922",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=15922"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/6",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/6"
+        }
+      ],
+      "cvssDetails": [],
+      "cvssSources": [],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=15922](https://bugs.busybox.net/show_bug.cgi?id=15922)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/6](http://www.openwall.com/lists/oss-security/2025/04/23/6)\n",
+      "epssDetails": {
+        "percentile": "0.04240",
+        "probability": "0.00020",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2024-58251"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:23:03.401542Z",
+      "disclosureTime": "2025-04-23T18:16:03.057000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:23:03.410805Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-22T03:23:03.411008Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "nginx/nginx@1.29.3-r1",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091698",
+      "cpes": [],
+      "title": "CVE-2025-46394",
+      "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": 3.3,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=16018",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=16018"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/5",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/5"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/24/3",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/24/3"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "NVD",
+          "severity": "low",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "cvssV3BaseScore": 3.3,
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "primary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "assigner": "NVD",
+          "severity": "low",
+          "baseScore": 3.3,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=16018](https://bugs.busybox.net/show_bug.cgi?id=16018)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/5](http://www.openwall.com/lists/oss-security/2025/04/23/5)\n- [http://www.openwall.com/lists/oss-security/2025/04/24/3](http://www.openwall.com/lists/oss-security/2025/04/24/3)\n",
+      "epssDetails": {
+        "percentile": "0.03074",
+        "probability": "0.00017",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-46394"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": "low",
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:22:50.851375Z",
+      "disclosureTime": "2025-04-23T16:15:48.713000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:22:50.892452Z",
+      "severityBasedOn": "CVSS",
+      "modificationTime": "2025-11-22T03:22:50.892591Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "nginx-module-geoip/nginx-module-geoip@1.29.3-r1",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091701",
+      "cpes": [],
+      "title": "CVE-2024-58251",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=15922",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=15922"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/6",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/6"
+        }
+      ],
+      "cvssDetails": [],
+      "cvssSources": [],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=15922](https://bugs.busybox.net/show_bug.cgi?id=15922)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/6](http://www.openwall.com/lists/oss-security/2025/04/23/6)\n",
+      "epssDetails": {
+        "percentile": "0.04240",
+        "probability": "0.00020",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2024-58251"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:23:03.401542Z",
+      "disclosureTime": "2025-04-23T18:16:03.057000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:23:03.410805Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-22T03:23:03.411008Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "nginx-module-geoip/nginx-module-geoip@1.29.3-r1",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091698",
+      "cpes": [],
+      "title": "CVE-2025-46394",
+      "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": 3.3,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=16018",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=16018"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/5",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/5"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/24/3",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/24/3"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "NVD",
+          "severity": "low",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "cvssV3BaseScore": 3.3,
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "primary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "assigner": "NVD",
+          "severity": "low",
+          "baseScore": 3.3,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=16018](https://bugs.busybox.net/show_bug.cgi?id=16018)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/5](http://www.openwall.com/lists/oss-security/2025/04/23/5)\n- [http://www.openwall.com/lists/oss-security/2025/04/24/3](http://www.openwall.com/lists/oss-security/2025/04/24/3)\n",
+      "epssDetails": {
+        "percentile": "0.03074",
+        "probability": "0.00017",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-46394"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": "low",
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:22:50.851375Z",
+      "disclosureTime": "2025-04-23T16:15:48.713000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:22:50.892452Z",
+      "severityBasedOn": "CVSS",
+      "modificationTime": "2025-11-22T03:22:50.892591Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "nginx-module-image-filter/nginx-module-image-filter@1.29.3-r1",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091701",
+      "cpes": [],
+      "title": "CVE-2024-58251",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=15922",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=15922"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/6",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/6"
+        }
+      ],
+      "cvssDetails": [],
+      "cvssSources": [],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=15922](https://bugs.busybox.net/show_bug.cgi?id=15922)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/6](http://www.openwall.com/lists/oss-security/2025/04/23/6)\n",
+      "epssDetails": {
+        "percentile": "0.04240",
+        "probability": "0.00020",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2024-58251"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:23:03.401542Z",
+      "disclosureTime": "2025-04-23T18:16:03.057000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:23:03.410805Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-22T03:23:03.411008Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "nginx-module-image-filter/nginx-module-image-filter@1.29.3-r1",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091698",
+      "cpes": [],
+      "title": "CVE-2025-46394",
+      "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": 3.3,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=16018",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=16018"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/5",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/5"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/24/3",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/24/3"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "NVD",
+          "severity": "low",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "cvssV3BaseScore": 3.3,
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "primary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "assigner": "NVD",
+          "severity": "low",
+          "baseScore": 3.3,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=16018](https://bugs.busybox.net/show_bug.cgi?id=16018)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/5](http://www.openwall.com/lists/oss-security/2025/04/23/5)\n- [http://www.openwall.com/lists/oss-security/2025/04/24/3](http://www.openwall.com/lists/oss-security/2025/04/24/3)\n",
+      "epssDetails": {
+        "percentile": "0.03074",
+        "probability": "0.00017",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-46394"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": "low",
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:22:50.851375Z",
+      "disclosureTime": "2025-04-23T16:15:48.713000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:22:50.892452Z",
+      "severityBasedOn": "CVSS",
+      "modificationTime": "2025-11-22T03:22:50.892591Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "nginx-module-njs/nginx-module-njs@1.29.3.0.9.4-r1",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091701",
+      "cpes": [],
+      "title": "CVE-2024-58251",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=15922",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=15922"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/6",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/6"
+        }
+      ],
+      "cvssDetails": [],
+      "cvssSources": [],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=15922](https://bugs.busybox.net/show_bug.cgi?id=15922)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/6](http://www.openwall.com/lists/oss-security/2025/04/23/6)\n",
+      "epssDetails": {
+        "percentile": "0.04240",
+        "probability": "0.00020",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2024-58251"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:23:03.401542Z",
+      "disclosureTime": "2025-04-23T18:16:03.057000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:23:03.410805Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-22T03:23:03.411008Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "nginx-module-njs/nginx-module-njs@1.29.3.0.9.4-r1",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091698",
+      "cpes": [],
+      "title": "CVE-2025-46394",
+      "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": 3.3,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=16018",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=16018"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/5",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/5"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/24/3",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/24/3"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "NVD",
+          "severity": "low",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "cvssV3BaseScore": 3.3,
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "primary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "assigner": "NVD",
+          "severity": "low",
+          "baseScore": 3.3,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=16018](https://bugs.busybox.net/show_bug.cgi?id=16018)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/5](http://www.openwall.com/lists/oss-security/2025/04/23/5)\n- [http://www.openwall.com/lists/oss-security/2025/04/24/3](http://www.openwall.com/lists/oss-security/2025/04/24/3)\n",
+      "epssDetails": {
+        "percentile": "0.03074",
+        "probability": "0.00017",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-46394"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": "low",
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:22:50.851375Z",
+      "disclosureTime": "2025-04-23T16:15:48.713000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:22:50.892452Z",
+      "severityBasedOn": "CVSS",
+      "modificationTime": "2025-11-22T03:22:50.892591Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "nginx-module-xslt/nginx-module-xslt@1.29.3-r1",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091701",
+      "cpes": [],
+      "title": "CVE-2024-58251",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=15922",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=15922"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/6",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/6"
+        }
+      ],
+      "cvssDetails": [],
+      "cvssSources": [],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=15922](https://bugs.busybox.net/show_bug.cgi?id=15922)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/6](http://www.openwall.com/lists/oss-security/2025/04/23/6)\n",
+      "epssDetails": {
+        "percentile": "0.04240",
+        "probability": "0.00020",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2024-58251"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:23:03.401542Z",
+      "disclosureTime": "2025-04-23T18:16:03.057000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:23:03.410805Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-22T03:23:03.411008Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "nginx-module-xslt/nginx-module-xslt@1.29.3-r1",
+        "busybox/busybox-binsh@1.37.0-r19"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "busybox/busybox-binsh",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091698",
+      "cpes": [],
+      "title": "CVE-2025-46394",
+      "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": 3.3,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=16018",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=16018"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/5",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/5"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/24/3",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/24/3"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "NVD",
+          "severity": "low",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "cvssV3BaseScore": 3.3,
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "primary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+          "assigner": "NVD",
+          "severity": "low",
+          "baseScore": 3.3,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-09-25T01:13:28.816627Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=16018](https://bugs.busybox.net/show_bug.cgi?id=16018)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/5](http://www.openwall.com/lists/oss-security/2025/04/23/5)\n- [http://www.openwall.com/lists/oss-security/2025/04/24/3](http://www.openwall.com/lists/oss-security/2025/04/24/3)\n",
+      "epssDetails": {
+        "percentile": "0.03074",
+        "probability": "0.00017",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-46394"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": "low",
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:22:50.851375Z",
+      "disclosureTime": "2025-04-23T16:15:48.713000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:22:50.892452Z",
+      "severityBasedOn": "CVSS",
+      "modificationTime": "2025-11-22T03:22:50.892591Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "busybox/ssl_client@1.37.0-r19"
+      ],
+      "upgradePath": [
+        false,
+        "busybox/ssl_client@1.37.0-r20"
+      ],
+      "isUpgradable": true,
+      "isPatchable": false,
+      "name": "busybox/ssl_client",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-BUSYBOX-14091701",
+      "cpes": [],
+      "title": "CVE-2024-58251",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.37.0-r20"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.37.0-r20"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://bugs.busybox.net/show_bug.cgi?id=15922",
+          "title": "https://bugs.busybox.net/show_bug.cgi?id=15922"
+        },
+        {
+          "url": "https://www.busybox.net",
+          "title": "https://www.busybox.net"
+        },
+        {
+          "url": "https://www.busybox.net/downloads/",
+          "title": "https://www.busybox.net/downloads/"
+        },
+        {
+          "url": "http://www.openwall.com/lists/oss-security/2025/04/23/6",
+          "title": "http://www.openwall.com/lists/oss-security/2025/04/23/6"
+        }
+      ],
+      "cvssDetails": [],
+      "cvssSources": [],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `busybox` package and not the `busybox` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nIn netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.\n## Remediation\nUpgrade `Alpine:3.22` `busybox` to version 1.37.0-r20 or higher.\n## References\n- [https://bugs.busybox.net/show_bug.cgi?id=15922](https://bugs.busybox.net/show_bug.cgi?id=15922)\n- [https://www.busybox.net](https://www.busybox.net)\n- [https://www.busybox.net/downloads/](https://www.busybox.net/downloads/)\n- [http://www.openwall.com/lists/oss-security/2025/04/23/6](http://www.openwall.com/lists/oss-security/2025/04/23/6)\n",
+      "epssDetails": {
+        "percentile": "0.04240",
+        "probability": "0.00020",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2024-58251"
+        ],
+        "CWE": [],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "busybox",
+      "creationTime": "2025-11-22T03:23:03.401542Z",
+      "disclosureTime": "2025-04-23T18:16:03.057000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-22T03:23:03.410805Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-22T03:23:03.411008Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "busybox/ssl_client@1.37.0-r19"
+      ],
+      "upgradePath": [
+        false,
+        "busybox/ssl_client@1.37.0-r20"
+      ],
+      "isUpgradable": true,
+      "isPatchable": false,
+      "name": "busybox/ssl_client",
+      "version": "1.37.0-r19",
+      "nearestFixedInVersion": "1.37.0-r20"
+    },
+    {
+      "id": "SNYK-ALPINE322-LIBPNG-14139231",
+      "cpes": [],
+      "title": "Out-of-bounds Read",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.6.51-r0"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.6.51-r0"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821",
+          "title": "https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/pull/749",
+          "title": "https://github.com/pnggroup/libpng/pull/749"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6",
+          "title": "https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "Red Hat",
+          "severity": "medium",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+          "cvssV3BaseScore": 6.1,
+          "modificationTime": "2025-11-27T05:45:49.008818Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "secondary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+          "assigner": "Red Hat",
+          "severity": "medium",
+          "baseScore": 6.1,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-11-27T05:45:49.008818Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `libpng` package and not the `libpng` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nLIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, a heap buffer over-read vulnerability exists in libpng&#39;s png_write_image_8bit function when processing 8-bit images through the simplified write API with convert_to_8bit enabled. The vulnerability affects 8-bit grayscale+alpha, RGB/RGBA, and images with incomplete row data. A conditional guard incorrectly allows 8-bit input to enter code expecting 16-bit input, causing reads up to 2 bytes beyond allocated buffer boundaries. This issue has been patched in version 1.6.51.\n## Remediation\nUpgrade `Alpine:3.22` `libpng` to version 1.6.51-r0 or higher.\n## References\n- [https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821](https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821)\n- [https://github.com/pnggroup/libpng/pull/749](https://github.com/pnggroup/libpng/pull/749)\n- [https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6](https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6)\n",
+      "epssDetails": {
+        "percentile": "0.01258",
+        "probability": "0.00012",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-64506"
+        ],
+        "CWE": [
+          "CWE-125"
+        ],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "libpng",
+      "creationTime": "2025-11-28T02:51:56.217951Z",
+      "disclosureTime": "2025-11-25T00:15:47.300000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-28T02:51:56.224739Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-28T02:51:56.224850Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "libpng/libpng@1.6.47-r0"
+      ],
+      "upgradePath": [
+        false,
+        "libpng/libpng@1.6.51-r0"
+      ],
+      "isUpgradable": true,
+      "isPatchable": false,
+      "name": "libpng/libpng",
+      "version": "1.6.47-r0",
+      "nearestFixedInVersion": "1.6.51-r0"
+    },
+    {
+      "id": "SNYK-ALPINE322-LIBPNG-14139232",
+      "cpes": [],
+      "title": "Out-of-bounds Read",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.6.51-r0"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.6.51-r0"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643",
+          "title": "https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/issues/686",
+          "title": "https://github.com/pnggroup/libpng/issues/686"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/pull/751",
+          "title": "https://github.com/pnggroup/libpng/pull/751"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww",
+          "title": "https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "Red Hat",
+          "severity": "high",
+          "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+          "cvssV3BaseScore": 7.1,
+          "modificationTime": "2025-11-27T05:47:17.366688Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "secondary",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+          "assigner": "Red Hat",
+          "severity": "high",
+          "baseScore": 7.1,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-11-27T05:47:17.366688Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `libpng` package and not the `libpng` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nLIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, an out-of-bounds read vulnerability exists in png_image_read_composite when processing palette images with PNG_FLAG_OPTIMIZE_ALPHA enabled. The palette compositing code in png_init_read_transformations incorrectly applies background compositing during premultiplication, violating the invariant component ≤ alpha × 257 required by the simplified PNG API. This issue has been patched in version 1.6.51.\n## Remediation\nUpgrade `Alpine:3.22` `libpng` to version 1.6.51-r0 or higher.\n## References\n- [https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643](https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643)\n- [https://github.com/pnggroup/libpng/issues/686](https://github.com/pnggroup/libpng/issues/686)\n- [https://github.com/pnggroup/libpng/pull/751](https://github.com/pnggroup/libpng/pull/751)\n- [https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww](https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww)\n",
+      "epssDetails": {
+        "percentile": "0.09099",
+        "probability": "0.00033",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-64720"
+        ],
+        "CWE": [
+          "CWE-125"
+        ],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "libpng",
+      "creationTime": "2025-11-28T02:53:40.468620Z",
+      "disclosureTime": "2025-11-25T00:15:47.460000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-28T02:53:40.473676Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-28T02:53:40.473808Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "libpng/libpng@1.6.47-r0"
+      ],
+      "upgradePath": [
+        false,
+        "libpng/libpng@1.6.51-r0"
+      ],
+      "isUpgradable": true,
+      "isPatchable": false,
+      "name": "libpng/libpng",
+      "version": "1.6.47-r0",
+      "nearestFixedInVersion": "1.6.51-r0"
+    },
+    {
+      "id": "SNYK-ALPINE322-LIBPNG-14139233",
+      "cpes": [],
+      "title": "Heap-based Buffer Overflow",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.6.51-r0"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.6.51-r0"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d",
+          "title": "https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea",
+          "title": "https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/pull/757",
+          "title": "https://github.com/pnggroup/libpng/pull/757"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/issues/755",
+          "title": "https://github.com/pnggroup/libpng/issues/755"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g",
+          "title": "https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "Red Hat",
+          "severity": "high",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H",
+          "cvssV3BaseScore": 7.1,
+          "modificationTime": "2025-11-27T05:45:30.100188Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "secondary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H",
+          "assigner": "Red Hat",
+          "severity": "high",
+          "baseScore": 7.1,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-11-27T05:45:30.100188Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `libpng` package and not the `libpng` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nLIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, there is a heap buffer overflow vulnerability in the libpng simplified API function png_image_finish_read when processing 16-bit interlaced PNGs with 8-bit output format. Attacker-crafted interlaced PNG files cause heap writes beyond allocated buffer bounds. This issue has been patched in version 1.6.51.\n## Remediation\nUpgrade `Alpine:3.22` `libpng` to version 1.6.51-r0 or higher.\n## References\n- [https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d](https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d)\n- [https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea](https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea)\n- [https://github.com/pnggroup/libpng/pull/757](https://github.com/pnggroup/libpng/pull/757)\n- [https://github.com/pnggroup/libpng/issues/755](https://github.com/pnggroup/libpng/issues/755)\n- [https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g](https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g)\n",
+      "epssDetails": {
+        "percentile": "0.03602",
+        "probability": "0.00018",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-65018"
+        ],
+        "CWE": [
+          "CWE-122",
+          "CWE-787"
+        ],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "libpng",
+      "creationTime": "2025-11-28T02:54:04.754583Z",
+      "disclosureTime": "2025-11-25T00:15:47.610000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-28T02:54:04.758178Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-28T02:54:04.758324Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "libpng/libpng@1.6.47-r0"
+      ],
+      "upgradePath": [
+        false,
+        "libpng/libpng@1.6.51-r0"
+      ],
+      "isUpgradable": true,
+      "isPatchable": false,
+      "name": "libpng/libpng",
+      "version": "1.6.47-r0",
+      "nearestFixedInVersion": "1.6.51-r0"
+    },
+    {
+      "id": "SNYK-ALPINE322-LIBPNG-14139234",
+      "cpes": [],
+      "title": "Out-of-bounds Read",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.6.51-r0"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.6.51-r0"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37",
+          "title": "https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/pull/748",
+          "title": "https://github.com/pnggroup/libpng/pull/748"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42",
+          "title": "https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "Red Hat",
+          "severity": "medium",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+          "cvssV3BaseScore": 4.4,
+          "modificationTime": "2025-12-03T05:27:08.706835Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "secondary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+          "assigner": "Red Hat",
+          "severity": "medium",
+          "baseScore": 4.4,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-12-03T05:27:08.706835Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `libpng` package and not the `libpng` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nLIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to version 1.6.51, a heap buffer over-read vulnerability exists in libpng&#39;s png_do_quantize function when processing PNG files with malformed palette indices. The vulnerability occurs when palette_lookup array bounds are not validated against externally-supplied image data, allowing an attacker to craft a PNG file with out-of-range palette indices that trigger out-of-bounds memory access. This issue has been patched in version 1.6.51.\n## Remediation\nUpgrade `Alpine:3.22` `libpng` to version 1.6.51-r0 or higher.\n## References\n- [https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37](https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37)\n- [https://github.com/pnggroup/libpng/pull/748](https://github.com/pnggroup/libpng/pull/748)\n- [https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42](https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42)\n",
+      "epssDetails": {
+        "percentile": "0.01258",
+        "probability": "0.00012",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-64505"
+        ],
+        "CWE": [
+          "CWE-125"
+        ],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "libpng",
+      "creationTime": "2025-11-28T02:54:07.282449Z",
+      "disclosureTime": "2025-11-25T00:15:47.133000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-28T02:54:07.285236Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-12-03T05:27:08.706835Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "libpng/libpng@1.6.47-r0"
+      ],
+      "upgradePath": [
+        false,
+        "libpng/libpng@1.6.51-r0"
+      ],
+      "isUpgradable": true,
+      "isPatchable": false,
+      "name": "libpng/libpng",
+      "version": "1.6.47-r0",
+      "nearestFixedInVersion": "1.6.51-r0"
+    },
+    {
+      "id": "SNYK-ALPINE322-LIBPNG-14139231",
+      "cpes": [],
+      "title": "Out-of-bounds Read",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.6.51-r0"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.6.51-r0"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821",
+          "title": "https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/pull/749",
+          "title": "https://github.com/pnggroup/libpng/pull/749"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6",
+          "title": "https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "Red Hat",
+          "severity": "medium",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+          "cvssV3BaseScore": 6.1,
+          "modificationTime": "2025-11-27T05:45:49.008818Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "secondary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+          "assigner": "Red Hat",
+          "severity": "medium",
+          "baseScore": 6.1,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-11-27T05:45:49.008818Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `libpng` package and not the `libpng` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nLIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, a heap buffer over-read vulnerability exists in libpng&#39;s png_write_image_8bit function when processing 8-bit images through the simplified write API with convert_to_8bit enabled. The vulnerability affects 8-bit grayscale+alpha, RGB/RGBA, and images with incomplete row data. A conditional guard incorrectly allows 8-bit input to enter code expecting 16-bit input, causing reads up to 2 bytes beyond allocated buffer boundaries. This issue has been patched in version 1.6.51.\n## Remediation\nUpgrade `Alpine:3.22` `libpng` to version 1.6.51-r0 or higher.\n## References\n- [https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821](https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821)\n- [https://github.com/pnggroup/libpng/pull/749](https://github.com/pnggroup/libpng/pull/749)\n- [https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6](https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6)\n",
+      "epssDetails": {
+        "percentile": "0.01258",
+        "probability": "0.00012",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-64506"
+        ],
+        "CWE": [
+          "CWE-125"
+        ],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "libpng",
+      "creationTime": "2025-11-28T02:51:56.217951Z",
+      "disclosureTime": "2025-11-25T00:15:47.300000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-28T02:51:56.224739Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-28T02:51:56.224850Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "gd/libgd@2.3.3-r10",
+        "libpng/libpng@1.6.47-r0"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "libpng/libpng",
+      "version": "1.6.47-r0",
+      "nearestFixedInVersion": "1.6.51-r0"
+    },
+    {
+      "id": "SNYK-ALPINE322-LIBPNG-14139232",
+      "cpes": [],
+      "title": "Out-of-bounds Read",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.6.51-r0"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.6.51-r0"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643",
+          "title": "https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/issues/686",
+          "title": "https://github.com/pnggroup/libpng/issues/686"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/pull/751",
+          "title": "https://github.com/pnggroup/libpng/pull/751"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww",
+          "title": "https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "Red Hat",
+          "severity": "high",
+          "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+          "cvssV3BaseScore": 7.1,
+          "modificationTime": "2025-11-27T05:47:17.366688Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "secondary",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+          "assigner": "Red Hat",
+          "severity": "high",
+          "baseScore": 7.1,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-11-27T05:47:17.366688Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `libpng` package and not the `libpng` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nLIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, an out-of-bounds read vulnerability exists in png_image_read_composite when processing palette images with PNG_FLAG_OPTIMIZE_ALPHA enabled. The palette compositing code in png_init_read_transformations incorrectly applies background compositing during premultiplication, violating the invariant component ≤ alpha × 257 required by the simplified PNG API. This issue has been patched in version 1.6.51.\n## Remediation\nUpgrade `Alpine:3.22` `libpng` to version 1.6.51-r0 or higher.\n## References\n- [https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643](https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643)\n- [https://github.com/pnggroup/libpng/issues/686](https://github.com/pnggroup/libpng/issues/686)\n- [https://github.com/pnggroup/libpng/pull/751](https://github.com/pnggroup/libpng/pull/751)\n- [https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww](https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww)\n",
+      "epssDetails": {
+        "percentile": "0.09099",
+        "probability": "0.00033",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-64720"
+        ],
+        "CWE": [
+          "CWE-125"
+        ],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "libpng",
+      "creationTime": "2025-11-28T02:53:40.468620Z",
+      "disclosureTime": "2025-11-25T00:15:47.460000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-28T02:53:40.473676Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-28T02:53:40.473808Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "gd/libgd@2.3.3-r10",
+        "libpng/libpng@1.6.47-r0"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "libpng/libpng",
+      "version": "1.6.47-r0",
+      "nearestFixedInVersion": "1.6.51-r0"
+    },
+    {
+      "id": "SNYK-ALPINE322-LIBPNG-14139233",
+      "cpes": [],
+      "title": "Heap-based Buffer Overflow",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.6.51-r0"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.6.51-r0"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d",
+          "title": "https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea",
+          "title": "https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/pull/757",
+          "title": "https://github.com/pnggroup/libpng/pull/757"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/issues/755",
+          "title": "https://github.com/pnggroup/libpng/issues/755"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g",
+          "title": "https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "Red Hat",
+          "severity": "high",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H",
+          "cvssV3BaseScore": 7.1,
+          "modificationTime": "2025-11-27T05:45:30.100188Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "secondary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H",
+          "assigner": "Red Hat",
+          "severity": "high",
+          "baseScore": 7.1,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-11-27T05:45:30.100188Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `libpng` package and not the `libpng` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nLIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, there is a heap buffer overflow vulnerability in the libpng simplified API function png_image_finish_read when processing 16-bit interlaced PNGs with 8-bit output format. Attacker-crafted interlaced PNG files cause heap writes beyond allocated buffer bounds. This issue has been patched in version 1.6.51.\n## Remediation\nUpgrade `Alpine:3.22` `libpng` to version 1.6.51-r0 or higher.\n## References\n- [https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d](https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d)\n- [https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea](https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea)\n- [https://github.com/pnggroup/libpng/pull/757](https://github.com/pnggroup/libpng/pull/757)\n- [https://github.com/pnggroup/libpng/issues/755](https://github.com/pnggroup/libpng/issues/755)\n- [https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g](https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g)\n",
+      "epssDetails": {
+        "percentile": "0.03602",
+        "probability": "0.00018",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-65018"
+        ],
+        "CWE": [
+          "CWE-122",
+          "CWE-787"
+        ],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "libpng",
+      "creationTime": "2025-11-28T02:54:04.754583Z",
+      "disclosureTime": "2025-11-25T00:15:47.610000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-28T02:54:04.758178Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-28T02:54:04.758324Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "gd/libgd@2.3.3-r10",
+        "libpng/libpng@1.6.47-r0"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "libpng/libpng",
+      "version": "1.6.47-r0",
+      "nearestFixedInVersion": "1.6.51-r0"
+    },
+    {
+      "id": "SNYK-ALPINE322-LIBPNG-14139234",
+      "cpes": [],
+      "title": "Out-of-bounds Read",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.6.51-r0"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.6.51-r0"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37",
+          "title": "https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/pull/748",
+          "title": "https://github.com/pnggroup/libpng/pull/748"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42",
+          "title": "https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "Red Hat",
+          "severity": "medium",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+          "cvssV3BaseScore": 4.4,
+          "modificationTime": "2025-12-03T05:27:08.706835Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "secondary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+          "assigner": "Red Hat",
+          "severity": "medium",
+          "baseScore": 4.4,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-12-03T05:27:08.706835Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `libpng` package and not the `libpng` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nLIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to version 1.6.51, a heap buffer over-read vulnerability exists in libpng&#39;s png_do_quantize function when processing PNG files with malformed palette indices. The vulnerability occurs when palette_lookup array bounds are not validated against externally-supplied image data, allowing an attacker to craft a PNG file with out-of-range palette indices that trigger out-of-bounds memory access. This issue has been patched in version 1.6.51.\n## Remediation\nUpgrade `Alpine:3.22` `libpng` to version 1.6.51-r0 or higher.\n## References\n- [https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37](https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37)\n- [https://github.com/pnggroup/libpng/pull/748](https://github.com/pnggroup/libpng/pull/748)\n- [https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42](https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42)\n",
+      "epssDetails": {
+        "percentile": "0.01258",
+        "probability": "0.00012",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-64505"
+        ],
+        "CWE": [
+          "CWE-125"
+        ],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "libpng",
+      "creationTime": "2025-11-28T02:54:07.282449Z",
+      "disclosureTime": "2025-11-25T00:15:47.133000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-28T02:54:07.285236Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-12-03T05:27:08.706835Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "gd/libgd@2.3.3-r10",
+        "libpng/libpng@1.6.47-r0"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "libpng/libpng",
+      "version": "1.6.47-r0",
+      "nearestFixedInVersion": "1.6.51-r0"
+    },
+    {
+      "id": "SNYK-ALPINE322-LIBPNG-14139231",
+      "cpes": [],
+      "title": "Out-of-bounds Read",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.6.51-r0"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.6.51-r0"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821",
+          "title": "https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/pull/749",
+          "title": "https://github.com/pnggroup/libpng/pull/749"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6",
+          "title": "https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "Red Hat",
+          "severity": "medium",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+          "cvssV3BaseScore": 6.1,
+          "modificationTime": "2025-11-27T05:45:49.008818Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "secondary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+          "assigner": "Red Hat",
+          "severity": "medium",
+          "baseScore": 6.1,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-11-27T05:45:49.008818Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `libpng` package and not the `libpng` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nLIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, a heap buffer over-read vulnerability exists in libpng&#39;s png_write_image_8bit function when processing 8-bit images through the simplified write API with convert_to_8bit enabled. The vulnerability affects 8-bit grayscale+alpha, RGB/RGBA, and images with incomplete row data. A conditional guard incorrectly allows 8-bit input to enter code expecting 16-bit input, causing reads up to 2 bytes beyond allocated buffer boundaries. This issue has been patched in version 1.6.51.\n## Remediation\nUpgrade `Alpine:3.22` `libpng` to version 1.6.51-r0 or higher.\n## References\n- [https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821](https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821)\n- [https://github.com/pnggroup/libpng/pull/749](https://github.com/pnggroup/libpng/pull/749)\n- [https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6](https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6)\n",
+      "epssDetails": {
+        "percentile": "0.01258",
+        "probability": "0.00012",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-64506"
+        ],
+        "CWE": [
+          "CWE-125"
+        ],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "libpng",
+      "creationTime": "2025-11-28T02:51:56.217951Z",
+      "disclosureTime": "2025-11-25T00:15:47.300000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-28T02:51:56.224739Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-28T02:51:56.224850Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "fontconfig/fontconfig@2.15.0-r3",
+        "freetype/freetype@2.13.3-r0",
+        "libpng/libpng@1.6.47-r0"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "libpng/libpng",
+      "version": "1.6.47-r0",
+      "nearestFixedInVersion": "1.6.51-r0"
+    },
+    {
+      "id": "SNYK-ALPINE322-LIBPNG-14139232",
+      "cpes": [],
+      "title": "Out-of-bounds Read",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.6.51-r0"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.6.51-r0"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643",
+          "title": "https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/issues/686",
+          "title": "https://github.com/pnggroup/libpng/issues/686"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/pull/751",
+          "title": "https://github.com/pnggroup/libpng/pull/751"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww",
+          "title": "https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "Red Hat",
+          "severity": "high",
+          "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+          "cvssV3BaseScore": 7.1,
+          "modificationTime": "2025-11-27T05:47:17.366688Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "secondary",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+          "assigner": "Red Hat",
+          "severity": "high",
+          "baseScore": 7.1,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-11-27T05:47:17.366688Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `libpng` package and not the `libpng` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nLIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, an out-of-bounds read vulnerability exists in png_image_read_composite when processing palette images with PNG_FLAG_OPTIMIZE_ALPHA enabled. The palette compositing code in png_init_read_transformations incorrectly applies background compositing during premultiplication, violating the invariant component ≤ alpha × 257 required by the simplified PNG API. This issue has been patched in version 1.6.51.\n## Remediation\nUpgrade `Alpine:3.22` `libpng` to version 1.6.51-r0 or higher.\n## References\n- [https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643](https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643)\n- [https://github.com/pnggroup/libpng/issues/686](https://github.com/pnggroup/libpng/issues/686)\n- [https://github.com/pnggroup/libpng/pull/751](https://github.com/pnggroup/libpng/pull/751)\n- [https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww](https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww)\n",
+      "epssDetails": {
+        "percentile": "0.09099",
+        "probability": "0.00033",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-64720"
+        ],
+        "CWE": [
+          "CWE-125"
+        ],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "libpng",
+      "creationTime": "2025-11-28T02:53:40.468620Z",
+      "disclosureTime": "2025-11-25T00:15:47.460000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-28T02:53:40.473676Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-28T02:53:40.473808Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "fontconfig/fontconfig@2.15.0-r3",
+        "freetype/freetype@2.13.3-r0",
+        "libpng/libpng@1.6.47-r0"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "libpng/libpng",
+      "version": "1.6.47-r0",
+      "nearestFixedInVersion": "1.6.51-r0"
+    },
+    {
+      "id": "SNYK-ALPINE322-LIBPNG-14139233",
+      "cpes": [],
+      "title": "Heap-based Buffer Overflow",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.6.51-r0"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.6.51-r0"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d",
+          "title": "https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea",
+          "title": "https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/pull/757",
+          "title": "https://github.com/pnggroup/libpng/pull/757"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/issues/755",
+          "title": "https://github.com/pnggroup/libpng/issues/755"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g",
+          "title": "https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "Red Hat",
+          "severity": "high",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H",
+          "cvssV3BaseScore": 7.1,
+          "modificationTime": "2025-11-27T05:45:30.100188Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "secondary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H",
+          "assigner": "Red Hat",
+          "severity": "high",
+          "baseScore": 7.1,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-11-27T05:45:30.100188Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `libpng` package and not the `libpng` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nLIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, there is a heap buffer overflow vulnerability in the libpng simplified API function png_image_finish_read when processing 16-bit interlaced PNGs with 8-bit output format. Attacker-crafted interlaced PNG files cause heap writes beyond allocated buffer bounds. This issue has been patched in version 1.6.51.\n## Remediation\nUpgrade `Alpine:3.22` `libpng` to version 1.6.51-r0 or higher.\n## References\n- [https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d](https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d)\n- [https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea](https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea)\n- [https://github.com/pnggroup/libpng/pull/757](https://github.com/pnggroup/libpng/pull/757)\n- [https://github.com/pnggroup/libpng/issues/755](https://github.com/pnggroup/libpng/issues/755)\n- [https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g](https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g)\n",
+      "epssDetails": {
+        "percentile": "0.03602",
+        "probability": "0.00018",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-65018"
+        ],
+        "CWE": [
+          "CWE-122",
+          "CWE-787"
+        ],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "libpng",
+      "creationTime": "2025-11-28T02:54:04.754583Z",
+      "disclosureTime": "2025-11-25T00:15:47.610000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-28T02:54:04.758178Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-11-28T02:54:04.758324Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "fontconfig/fontconfig@2.15.0-r3",
+        "freetype/freetype@2.13.3-r0",
+        "libpng/libpng@1.6.47-r0"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "libpng/libpng",
+      "version": "1.6.47-r0",
+      "nearestFixedInVersion": "1.6.51-r0"
+    },
+    {
+      "id": "SNYK-ALPINE322-LIBPNG-14139234",
+      "cpes": [],
+      "title": "Out-of-bounds Read",
+      "CVSSv3": null,
+      "credit": [
+        ""
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.6.51-r0"
+        ]
+      },
+      "exploit": "Not Defined",
+      "fixedIn": [
+        "1.6.51-r0"
+      ],
+      "patches": [],
+      "insights": {
+        "triageAdvice": null
+      },
+      "language": "linux",
+      "severity": "low",
+      "cvssScore": null,
+      "malicious": false,
+      "isDisputed": false,
+      "references": [
+        {
+          "url": "https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37",
+          "title": "https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/pull/748",
+          "title": "https://github.com/pnggroup/libpng/pull/748"
+        },
+        {
+          "url": "https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42",
+          "title": "https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42"
+        }
+      ],
+      "cvssDetails": [
+        {
+          "assigner": "Red Hat",
+          "severity": "medium",
+          "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+          "cvssV3BaseScore": 4.4,
+          "modificationTime": "2025-12-03T05:27:08.706835Z"
+        }
+      ],
+      "cvssSources": [
+        {
+          "type": "secondary",
+          "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+          "assigner": "Red Hat",
+          "severity": "medium",
+          "baseScore": 4.4,
+          "cvssVersion": "3.1",
+          "modificationTime": "2025-12-03T05:27:08.706835Z"
+        }
+      ],
+      "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply only to the upstream `libpng` package and not the `libpng` package as distributed by `Alpine`._\n_See `How to fix?` for `Alpine:3.22` relevant fixed versions and status._\n\nLIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to version 1.6.51, a heap buffer over-read vulnerability exists in libpng&#39;s png_do_quantize function when processing PNG files with malformed palette indices. The vulnerability occurs when palette_lookup array bounds are not validated against externally-supplied image data, allowing an attacker to craft a PNG file with out-of-range palette indices that trigger out-of-bounds memory access. This issue has been patched in version 1.6.51.\n## Remediation\nUpgrade `Alpine:3.22` `libpng` to version 1.6.51-r0 or higher.\n## References\n- [https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37](https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37)\n- [https://github.com/pnggroup/libpng/pull/748](https://github.com/pnggroup/libpng/pull/748)\n- [https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42](https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42)\n",
+      "epssDetails": {
+        "percentile": "0.01258",
+        "probability": "0.00012",
+        "modelVersion": "v2025.03.14"
+      },
+      "identifiers": {
+        "CVE": [
+          "CVE-2025-64505"
+        ],
+        "CWE": [
+          "CWE-125"
+        ],
+        "ALTERNATIVE": []
+      },
+      "nvdSeverity": null,
+      "packageName": "libpng",
+      "creationTime": "2025-11-28T02:54:07.282449Z",
+      "disclosureTime": "2025-11-25T00:15:47.133000Z",
+      "exploitDetails": {
+        "sources": [],
+        "maturityLevels": [
+          {
+            "type": "secondary",
+            "level": "Not Defined",
+            "format": "CVSSv3"
+          },
+          {
+            "type": "primary",
+            "level": "Not Defined",
+            "format": "CVSSv4"
+          }
+        ]
+      },
+      "packageManager": "alpine:3.22",
+      "publicationTime": "2025-11-28T02:54:07.285236Z",
+      "severityBasedOn": "Default",
+      "modificationTime": "2025-12-03T05:27:08.706835Z",
+      "socialTrendAlert": false,
+      "relativeImportance": null,
+      "severityWithCritical": "low",
+      "from": [
+        "docker-image|keiken-dragon-ai-frontend@latest",
+        "fontconfig/fontconfig@2.15.0-r3",
+        "freetype/freetype@2.13.3-r0",
+        "libpng/libpng@1.6.47-r0"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "libpng/libpng",
+      "version": "1.6.47-r0",
+      "nearestFixedInVersion": "1.6.51-r0"
+    }
+  ],
+  "ok": false,
+  "dependencyCount": 70,
+  "org": "manarbadre13",
+  "policy": "# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.\nversion: v1.25.1\nignore: {}\npatch: {}\n",
+  "isPrivate": true,
+  "licensesPolicy": {
+    "severities": {},
+    "orgLicenseRules": {
+      "AGPL-1.0": {
+        "licenseType": "AGPL-1.0",
+        "severity": "high",
+        "instructions": ""
+      },
+      "AGPL-3.0": {
+        "licenseType": "AGPL-3.0",
+        "severity": "high",
+        "instructions": ""
+      },
+      "Artistic-1.0": {
+        "licenseType": "Artistic-1.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "Artistic-2.0": {
+        "licenseType": "Artistic-2.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "CDDL-1.0": {
+        "licenseType": "CDDL-1.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "CPOL-1.02": {
+        "licenseType": "CPOL-1.02",
+        "severity": "high",
+        "instructions": ""
+      },
+      "EPL-1.0": {
+        "licenseType": "EPL-1.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "GPL-2.0": {
+        "licenseType": "GPL-2.0",
+        "severity": "high",
+        "instructions": ""
+      },
+      "GPL-3.0": {
+        "licenseType": "GPL-3.0",
+        "severity": "high",
+        "instructions": ""
+      },
+      "LGPL-2.0": {
+        "licenseType": "LGPL-2.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "LGPL-2.1": {
+        "licenseType": "LGPL-2.1",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "LGPL-3.0": {
+        "licenseType": "LGPL-3.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "MPL-1.1": {
+        "licenseType": "MPL-1.1",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "MPL-2.0": {
+        "licenseType": "MPL-2.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "MS-RL": {
+        "licenseType": "MS-RL",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "SimPL-2.0": {
+        "licenseType": "SimPL-2.0",
+        "severity": "high",
+        "instructions": ""
+      }
+    }
+  },
+  "packageManager": "apk",
+  "ignoreSettings": {
+    "adminOnly": false,
+    "reasonRequired": false,
+    "disregardFilesystemIgnores": false
+  },
+  "docker": {
+    "os": {
+      "prettyName": "Alpine Linux v3.22"
+    }
+  },
+  "summary": "36 vulnerable dependency paths",
+  "filesystemPolicy": false,
+  "filtered": {
+    "ignore": [],
+    "patch": []
+  },
+  "uniqueCount": 6,
+  "projectName": "docker-image|keiken-dragon-ai-frontend",
+  "platform": "linux/amd64",
+  "hasUnknownVersions": false,
+  "path": "keiken-dragon-ai-frontend"
+}
