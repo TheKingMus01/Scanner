@@ -558,7 +558,6 @@ High duplication increases maintenance effort and the risk of introducing bugs w
 
 # 2. 🎯 Sonar Ratings Explained (A → E)
 
-![Ratings](screenshots/ratings-legend.png)
 
 | Rating | Meaning    | Interpretation                |
 | ------ | ---------- | ----------------------------- |
@@ -577,33 +576,3 @@ High duplication increases maintenance effort and the risk of introducing bugs w
 | Bugs            | **C**  | Needs improvements        |
 | Hotspot Review  | **E**  | ⚠️ Critical security risk |
 
-# 4. 📉 Technical Debt
-
-![Technical Debt](screenshots/technical-debt.png)
-
-Sonar estimates the required time to fix maintainability issues.
-
-### ✏️ Interpretation
-- High number of code smells → higher technical debt
-- Rating A → the ratio is still acceptable
-
-### 🧩 What to do
-- Reduce duplication
-- Fix complex code
-- Simplify long functions and nested conditions
-
-# 5. 🧭 Priority Action Plan
-
-## 🔥 High Priority (Fix immediately)
-- Review **ALL Security Hotspots** (Rating E)
-- Add **unit tests** (0% coverage)
-- Fix **critical & major bugs**
-- Reduce **critical duplicated blocks**
-
-## 🟡 Medium Priority
-- Refactor files with many code smells
-- Simplify complex methods
-
-## 🟢 Low Priority
-- UI / formatting improvements
-- Minor code smells
