@@ -70,9 +70,9 @@ Essentially, changing the profile changes the analysis results, so understanding
 
 ![Profile Quanlity HTML](screenshots/profileQuanlityHTML.png)
 
-- <html> must have a lang attribute
-- <table> must have a <caption> or <summary>
-- <img> requires alt text
+- ```bash <html> ``` must have a lang attribute
+- ```bash <table> ``` must have a ```bash <caption> or <summary> ```
+- ```bash <img> requires alt text ```
 - Input labels must be associated with controls
 
 → These rules caused most of the Minor and Info issues.
