@@ -14,7 +14,7 @@ docker run -d --name sonarqube -p 9000:9000 sonarqube
   * Username: `admin`
   * Password: `admin`
 
-> **Screenshot Placeholder:** ![SonarQube Running](screenshots/sonarqube-dashboard.png)
+> **Screenshot  :** ![SonarQube Running](screenshots/sonarqube-dashboard.png)
 
 ---
 
@@ -25,7 +25,7 @@ npx create-react-app hello-world-react --template typescript
 cd hello-world-react
 ```
 
-> **Screenshot Placeholder:** ![React App Structure](screenshots/react-app-structure.png)
+> **Screenshot  :** ![React App Structure](screenshots/react-app-structure.png)
 
 ---
 
@@ -49,7 +49,7 @@ This generates a **coverage report** at:
 coverage/lcov.info
 ```
 
-> **Screenshot Placeholder:** ![Coverage Report](screenshots/coverage-report.png)
+> **Screenshot  :** ![Coverage Report](screenshots/coverage-report.png)
 
 ---
 ## 4️⃣ Run Initial SonarQube Scan
@@ -96,7 +96,7 @@ sonar.password=admin
 sonar.typescript.lcov.reportPaths=coverage/lcov.info
 ```
 
-> **Screenshot Placeholder:** ![Running Scan](screenshots/sonar-prop.png)
+> **Screenshot  :** ![Running Scan](screenshots/sonar-prop.png)
 
 Then run:
 
@@ -104,7 +104,7 @@ Then run:
 docker run --rm --network host -v "$(pwd):/usr/src" sonarsource/sonar-scanner-cli
 ```
 
-> **Screenshot Placeholder:** ![Running Scan](screenshots/running-scan.png)
+> **Screenshot  :** ![Running Scan](screenshots/running-scan.png)
 
 ---
 
@@ -112,35 +112,35 @@ docker run --rm --network host -v "$(pwd):/usr/src" sonarsource/sonar-scanner-cl
 ## 5️⃣ Create a Custom Quality Profile in SonarQube
 
 1. Go to **SonarQube Dashboard → Quality Profiles**.
-> **Screenshot Placeholder:** ![Quality Profiles](screenshots/profileQuanlity.png)
+> **Screenshot  :** ![Quality Profiles](screenshots/profileQuanlity.png)
 2. Click **Create → TypeScript**.
 3. Choose a **parent profile**: `Sonar way`.
 4. Enter a name for your profile (e.g., `Custom React TS Profile`).
-> **Screenshot Placeholder:** ![Custom Quality Profile](screenshots/custom-quality-profile-form.png)
+> **Screenshot  :** ![Custom Quality Profile](screenshots/custom-quality-profile-form.png)
 5. Click **Create**.
 6. Enable/disable rules based on your coding standards. 
     Example:
-    **Screenshot Placeholder:** ![Custom Quality Profile](screenshots/custom-quality-profile-rules.png)
+    **Screenshot  :** ![Custom Quality Profile](screenshots/custom-quality-profile-rules.png)
     * Enable: `"==" and "!=" should be replaced with "===" and "!=="`
         >When activating a rule, specify the Quality Profile (Custom React TS Profile) and set the Severity level (e.g., Major, Critical).
-        **Screenshot Placeholder:** ![Custom Quality Profile](screenshots/custom-quality-profile-activate-rule.png)
+        **Screenshot  :** ![Custom Quality Profile](screenshots/custom-quality-profile-activate-rule.png)
     * Disable: rules you consider too strict for your team
 7. Save your profile.
 
-> **Screenshot Placeholder:** ![Custom Quality Profile](screenshots/custom-quality-profile.png)
+> **Screenshot  :** ![Custom Quality Profile](screenshots/custom-quality-profile.png)
 
 ---
 
 ## 6️⃣  Assign the Quality Profile to Your Project
 
-> **Screenshot Placeholder:** ![hello-world-react project](screenshots/reactProject.png)
+> **Screenshot  :** ![hello-world-react project](screenshots/reactProject.png)
 1. Go to **SonarQube Dashboard → Projects → hello-world-react → Administration → Quality Profiles**.
-> **Screenshot Placeholder:** ![hello-world-react project](screenshots/projectQualityProfiles.png)
+> **Screenshot  :** ![hello-world-react project](screenshots/projectQualityProfiles.png)
 2. Select your newly created profile `Custom React TS Profile` for TypeScript.
-> **Screenshot Placeholder:** ![hello-world-react project](screenshots/changeQualityProfiles.png)
+> **Screenshot  :** ![hello-world-react project](screenshots/changeQualityProfiles.png)
 3. Save the changes.
 
-> **Screenshot Placeholder:** ![Assign Quality Profile](screenshots/assign-quality-profile.png)
+> **Screenshot  :** ![Assign Quality Profile](screenshots/assign-quality-profile.png)
 
 ---
 
@@ -161,7 +161,7 @@ if (a != b) {
 }
 ```
 
-> **Screenshot Placeholder:** ![Test Code](screenshots/test-code.png)
+> **Screenshot  :** ![Test Code](screenshots/test-code.png)
 
 ---
 
@@ -171,7 +171,7 @@ if (a != b) {
 docker run --rm --network host -v "$(pwd):/usr/src" sonarsource/sonar-scanner-cli
 ```
 
-> **Screenshot Placeholder:** ![Running Scan](screenshots/running-scan-test.png)
+> **Screenshot  :** ![Running Scan](screenshots/running-scan-test.png)
 
 ---
 
@@ -185,7 +185,7 @@ docker run --rm --network host -v "$(pwd):/usr/src" sonarsource/sonar-scanner-cl
 Replace "==" with "===" and "!=" with "!=="
 ```
 
-> **Screenshot Placeholder:** ![Detected Issues](screenshots/detected-issues.png)
+> **Screenshot  :** ![Detected Issues](screenshots/detected-issues.png)
 
 ---
 
