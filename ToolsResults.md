@@ -1,5 +1,5 @@
 # 🧪 TESTS PRATIQUES - OUTILS SAST GRATUITS
-## Java / Spring Boot · Budget 0€ · Édition 2025
+## Java / Spring Boot · Édition 2025
 
 ---
 
