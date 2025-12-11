@@ -748,9 +748,9 @@ mvn dependency-check:purge dependency-check:check
 - 💡 Bon pour **CI/CD feedback rapide** mais pas suffisant seul
 
 #### 4. **OWASP DC** : Essentiel pour SCA
-- ✅ **27 CVE** dans dépendances
-- ✅ **2 Critical** dont Spring4Shell
-- 💡 **Complémentaire obligatoire** aux SAST
+- ✅ **69 CVE** dans dépendances
+- ✅ **11 Critical** (CVSS ≥ 8.0) dont Spring Boot, Spring Core, Tomcat-Embed-Core
+- 💡 **Complémentaire obligatoire** aux SAST pour couvrir les vulnérabilités des dépendances
 
 ### 🏆 Couverture Globale
 
