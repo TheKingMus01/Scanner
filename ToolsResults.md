@@ -616,12 +616,12 @@ mvn dependency-check:purge dependency-check:check
 
 | Type | Nombre | Commentaire |
 |------|--------|-------------|
-| **CVE Critical** | 2 | CVSS >= 9.0 |
-| **CVE High** | 5 | CVSS 7.0-8.9 |
-| **CVE Medium** | 12 | CVSS 4.0-6.9 |
-| **CVE Low** | 8 | CVSS 0.1-3.9 |
-| **Total CVE** | 27 | Sur 87 dépendances |
-| **Dépendances OK** | 60 | Sans CVE connus |
+| **CVE Critical** | 11 | CVSS ≥ 8.0 (ex. spring-boot, spring-core, tomcat-embed-core)|
+| **CVE High** | 20 | CVSS 7.0-7.9 |
+| **CVE Medium** | 25 | CVSS 4.0-6.9|
+| **CVE Low** | 13 | CVSS 4.0-6.9 |
+| **Total CVE** | 69 | Sur 101 dépendances scannées (74 uniques)|
+| **Dépendances OK** | 63 | Sans CVE connus |
 
 #### Détails des CVE critiques
 
