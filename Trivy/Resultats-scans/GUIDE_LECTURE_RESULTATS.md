@@ -56,7 +56,18 @@
 | `reciprocal` | Moyen | MPL-2.0, EPL-2.0, CDDL | Modifications doivent rester open source |
 | `restricted` | Élevé | LGPL-2.1, LGPL-3.0 | Copyleft faible - obligations de liaison |
 | `forbidden` | Critique | GPL-2.0, GPL-3.0, AGPL-3.0 | Copyleft fort - tout le code doit être open source |
-| `unknown` | À investiguer | UNKNOWN | Licence non identifiée |
+| `unknown` | À investiguer | UNKNOWN, NOASSERTION | Licence non identifiée |
+
+### Terminologie SPDX pour licences inconnues
+
+| Terme | Signification | Contexte |
+|-------|---------------|----------|
+| `NOASSERTION` | Licence non vérifiée/non déclarée par le créateur du SBOM | Standard SPDX |
+| `NONE` | Explicitement pas de licence (domaine public) | Standard SPDX |
+| `UNKNOWN` | Licence non identifiée | Trivy, pip-licenses |
+| `UNLICENSED` | Pas de licence déclarée | npm/license-checker |
+
+**Note :** `NOASSERTION` et `UNKNOWN` représentent le même risque → à investiguer manuellement.
 
 ### Extraire les licences par catégorie
 
@@ -67,8 +78,8 @@ cat trivy-license-report.json | jq -r '.Results[].Licenses[]? | "\(.PkgName): \(
 # Licences à risque (restricted/forbidden)
 cat trivy-license-report.json | jq -r '.Results[].Licenses[]? | select(.Category == "restricted" or .Category == "forbidden") | "\(.PkgName): \(.Name)"'
 
-# Licences inconnues
-cat trivy-license-report.json | jq -r '.Results[].Licenses[]? | select(.Name == "UNKNOWN") | .PkgName'
+# Licences inconnues (UNKNOWN ou NOASSERTION)
+cat trivy-license-report.json | jq -r '.Results[].Licenses[]? | select(.Name == "UNKNOWN" or .Name == "NOASSERTION") | .PkgName'
 
 # Résumé par catégorie
 cat trivy-license-report.json | jq -r '[.Results[].Licenses[]?.Category] | group_by(.) | map({category: .[0], count: length})'
@@ -172,7 +183,8 @@ cat trivy-vuln-report.json | jq -r '.Results[].Vulnerabilities[]? | select(.Fixe
     {
       "name": "requests",
       "versionInfo": "2.28.0",
-      "licenseConcluded": "Apache-2.0",
+      "licenseConcluded": "Apache-2.0",      // Licence confirmée
+      "licenseDeclared": "Apache-2.0",       // Licence déclarée par l'auteur
       "downloadLocation": "https://pypi.org/project/requests/",
       "externalRefs": [
         {
@@ -180,10 +192,20 @@ cat trivy-vuln-report.json | jq -r '.Results[].Vulnerabilities[]? | select(.Fixe
           "referenceLocator": "pkg:pypi/requests@2.28.0"
         }
       ]
+    },
+    {
+      "name": "some-unknown-pkg",
+      "versionInfo": "1.0.0",
+      "licenseConcluded": "NOASSERTION",     // Licence non déterminée
+      "licenseDeclared": "NOASSERTION"
     }
   ]
 }
 ```
+
+**Valeurs spéciales SPDX :**
+- `NOASSERTION` : Le créateur du SBOM n'a pas pu déterminer la licence
+- `NONE` : Le package n'a explicitement aucune licence
 
 ### Commandes d'extraction SBOM
 
@@ -261,7 +283,8 @@ pkg:npm/lodash@4.17.20
 |----------|------------------|--------|
 | Y a-t-il du GPL/AGPL ? | `jq '.Results[].Licenses[] \| select(.Category == "forbidden")'` | Peut exiger open-sourcing du produit |
 | Y a-t-il du LGPL ? | `jq '.Results[].Licenses[] \| select(.Name \| test("LGPL"))'` | OK si linking dynamique |
-| Licences inconnues ? | `jq '.Results[].Licenses[] \| select(.Name == "UNKNOWN")'` | Risque juridique - investiguer |
+| Licences inconnues ? | `jq '.Results[].Licenses[] \| select(.Name == "UNKNOWN" or .Name == "NOASSERTION")'` | Risque juridique - investiguer |
+| NOASSERTION dans SBOM ? | `jq '.packages[] \| select(.licenseConcluded == "NOASSERTION")'` | Licence non vérifiée |
 | Combien de dépendances ? | `jq '.components \| length'` (SBOM) | Complexité de maintenance |
 
 ### Checklist Sécurité (Security Risk)
@@ -278,7 +301,10 @@ pkg:npm/lodash@4.17.20
 echo "=== LICENSE RISK SUMMARY ==="
 echo "Forbidden (GPL/AGPL): $(cat licenses.json | jq '[.Results[].Licenses[]? | select(.Category == "forbidden")] | length')"
 echo "Restricted (LGPL): $(cat licenses.json | jq '[.Results[].Licenses[]? | select(.Category == "restricted")] | length')"
-echo "Unknown: $(cat licenses.json | jq '[.Results[].Licenses[]? | select(.Name == "UNKNOWN")] | length')"
+echo "Unknown/NOASSERTION: $(cat licenses.json | jq '[.Results[].Licenses[]? | select(.Name == "UNKNOWN" or .Name == "NOASSERTION")] | length')"
+echo ""
+echo "=== SBOM LICENSE CHECK (SPDX) ==="
+echo "NOASSERTION: $(cat sbom-spdx.json | jq '[.packages[]? | select(.licenseConcluded == "NOASSERTION")] | length')"
 echo ""
 echo "=== SECURITY RISK SUMMARY ==="
 echo "Critical CVEs: $(cat vulnerabilities.json | jq '[.Results[].Vulnerabilities[]? | select(.Severity == "CRITICAL")] | length')"
