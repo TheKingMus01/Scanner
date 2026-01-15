@@ -227,10 +227,9 @@ Installing the command-line tool that will scan your Delphi code.
 > 📸 **Screenshot 10.1**: ![SonarScanner download page showing Windows version](ScreenShots-2/Screenshot2026-01-15014604.png)
 
 2. **Extract the Archive**
+
    - Extract the ZIP file to `C:\sonar-scanner`
    - The folder should contain: `bin`, `conf`, `lib` folders
-
-> 📸 **Screenshot 10.2**: Windows Explorer showing extracted sonar-scanner folder structure
 
 3. **Add to System PATH (Optional but Recommended)**
 
@@ -407,4 +406,4 @@ Viewing the analysis results in the SonarQube web interface.
    - **New Code metrics** (issues found in recent changes)
    - **Overall Code metrics**
 
-> 📸 **Screenshot 15.2**: ![Project Overview dashboard showing quality gate status and key metrics](ScreenShots-2-2/Screenshot2026-01-15020054.png)
+> 📸 **Screenshot 15.2**: ![Project Overview dashboard showing quality gate status and key metrics](ScreenShots-2/Screenshot2026-01-15020054.png)
