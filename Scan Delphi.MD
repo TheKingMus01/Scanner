@@ -331,7 +331,7 @@ Running the SonarScanner to analyze your Delphi code and send results to SonarQu
 3. **Run the Scanner**
 
    ```bash
-   sonar-scanner -D"sonar.host.url=http://localhost:9000" -D"sonar login=squ_cd95dbff73706afe4e52e4c5c0ca13a05d3f2b21" -X
+   sonar-scanner -D"sonar.host.url=http://localhost:9000" -D"sonar.token=squ_cd95dbff73706afe4e52e4c5c0ca13a05d3f2b21" -X
    ```
 
    3. **Customize the Properties**
@@ -407,3 +407,4 @@ Viewing the analysis results in the SonarQube web interface.
    - **Overall Code metrics**
 
 > 📸 **Screenshot 15.2**: ![Project Overview dashboard showing quality gate status and key metrics](ScreenShots-2/Screenshot2026-01-15020054.png)
+
